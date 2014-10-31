@@ -41,13 +41,13 @@ var makeLinkedList = function(){
     }
 
     if (checkNode.value === target) {
-      console.log(true);
+  //    console.log(true);
       return true;
     } else if (checkNode.next !== null) {
       return list.contains(target, checkNode.next);
     }
 
-    console.log(false);
+  //  console.log(false);
     return false;
 
     // while (checkNode) {
